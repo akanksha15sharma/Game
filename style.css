@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Press Start 2P", sans-serif;
+  color: #eee;
+  background-color: #222;
+  /* background-color: #60b347; */
+}
+
+/* LAYOUT */
+header {
+  position: relative;
+  height: 35vh;
+  border-bottom: 7px solid #eee;
+}
+
+main {
+  height: 65vh;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left {
+  width: 52rem;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 4rem;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.between {
+  position: absolute;
+  margin-top: -13rem;
+  margin-left: 100rem;
+}
+
+.btn-again {
+  font-family: "Press Start 2P", sans-serif;
+  background: #eee;
+  color: #222;
+  font-weight: bold;
+  width: 120px;
+  height: 40px;
+  margin-left: 1rem;
+  position: absolute;
+  margin-top: -13rem;
+  border: none;
+}
+
+.btn-again:hover {
+  background: #222;
+  color: #eee;
+  border: 1px solid #eee;
+}
+
+.number {
+  font-family: "Press Start 2P", sans-serif;
+  width: 100px;
+  height: 80px;
+  background: #eee;
+  color: #222;
+  border: none;
+  margin-top: 13.5rem;
+  margin-left: 55rem;
+  font-size: 5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.guess {
+  font-family: "Press Start 2P", sans-serif;
+  width: 200px;
+  height: 80px;
+  background: #222;
+  color: #eee;
+  border: 2px solid #eee;
+  margin-bottom: 30px;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.btn-check {
+  font-family: "Press Start 2P", sans-serif;
+  background: #eee;
+  color: #222;
+  font-weight: bold;
+  width: 120px;
+  height: 40px;
+  margin-left: 4rem;
+  border: none;
+}
+
+.btn-check:hover {
+  background: #222;
+  color: #eee;
+  border: 1px solid #eee;
+}
+
+.right ul li {
+  font-size: 1.7rem;
+  list-style: none;
+}
+
+.message {
+  margin-bottom: 5rem;
+}
+
+.label-score {
+  margin-bottom: 2rem;
+}
